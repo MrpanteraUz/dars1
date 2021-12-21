@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-duration: 2s;
+    transition-delay: 0.5s; 
+    border: 5px solid gold; 
+    background-image: url(./img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  
+}
+i{
+    margin: 20px;
+    font-size: 50px;
+    color: blue;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.box:hover{
+    width: 300px;
+    height: 300px;
+    
+
+}  
+.container{
+    width: 80%;
+    height: 130px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+}
+.item{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    background: blue;
+    border-radius: 50%;
+    margin: 12px;
+}
+.box2{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    background-color:gold;
+    border: 5px dashed red;
+    transition: all 3s ease-in .5s;
+
+
+}
+
+.box2:hover{
+    width: 400px;
+    height: 400px;
+    background-color:blue ;
+   
+}
+/* transition: all 3s ease-in .5s;    transition:property-> duretion ->function->delay; */
+/* 1/property
+2/duretion
+3/functiom
+4/delay */
+
+
+/* transition-property: all; 
+transition-duration: 2s; buni vazifasi hoverga vaqt qoshib beradi
+transition-delay: 3s; buni kutib turish uchun yani 2 s dan keyin ishlashni taminlab beriladi */
+/* transition-timing-function: ease-in-out; buni vazifasi ummuiy vaqt berish trlarga */
